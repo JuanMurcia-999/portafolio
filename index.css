@@ -104,7 +104,7 @@ body{
 
 
 @media screen and (max-width:600px) {
-    
+    body{overflow-x: hidden;}
 #profile{
     height: 450px;
 }

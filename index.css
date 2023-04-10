@@ -8,7 +8,7 @@ body{
     width: 250px;
 }
 
-#profile{
+.profile{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url('./public/img/Perfil-Img.jpg');
     height: 350px;
     color: white;
@@ -105,20 +105,12 @@ body{
 
 @media screen and (max-width:600px) {
     body{overflow-x: hidden;}
-#profile{
-    height: 450px;
-}
 
-.ability{
-    height:150px;
-    width: 100px;
-   
-}
-.span-icon img{
-    height: 100px;
+#profile{height: 450px;}
 
-}
-h3{
-    font-size: 18px;
-}
+.ability{height:150px; width: 100px;}
+.span-icon img{height: 100px;}
+h3{font-size: 18px;}
+
+
 }
